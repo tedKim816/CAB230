@@ -41,6 +41,11 @@ body {
   height: 200px;
   /* Should be removed. Only for demonstration */
 }
+.search{
+  height: 110px;
+  padding: 10px;
+  text-align: center;
+}
 
 /* Style the footer */
 
