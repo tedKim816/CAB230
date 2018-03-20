@@ -35,10 +35,28 @@ body {
 
 /* Style the content */
 
-.content {
-  background-color: #ddd;
+.content_search {
+
+  background:url(/image1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size 100%;
   padding: 10px;
   height: 200px;
+  opacity: 0.6;
+  /* Should be removed. Only for demonstration */
+}
+
+.content_home {
+  background:url(/image2.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size 100%;
+  padding: 10px;
+  height: 200px;
+  opacity: 0.6;
   /* Should be removed. Only for demonstration */
 }
 
@@ -88,13 +106,13 @@ input[type=submit]:hover {
 
 .col-25 {
   float: left;
-  width: 25%;
+  width: 15%;
   margin-top: 6px;
 }
 
 .col-75 {
   float: left;
-  width: 75%;
+  width: 85%;
   margin-top: 6px;
 }
 
