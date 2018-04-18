@@ -46,7 +46,7 @@ body {
 }
 
 /* Style the content */
-
+/* 
 .content_search {
 
   background:url(/image1.jpg) no-repeat center center;
@@ -58,7 +58,7 @@ body {
   height: 200px;
   opacity: 0.6;
   text-align: center;
-  /* Should be removed. Only for demonstration */
+
 }
 
 .content_home {
@@ -71,7 +71,7 @@ body {
   height: 200px;
   opacity: 0.6;
   text-align: center;
-  /* Should be removed. Only for demonstration */
+
 }
 
 .content_registration{
@@ -83,7 +83,7 @@ body {
   opacity: 0.6;
   text-align: center;
 
-}
+} */
 
 .search{
   height: 110px;
@@ -276,3 +276,40 @@ span.psw {
 .icon-bar a:hover {
   background-color: #000;
 }
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.list-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+
+}
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
