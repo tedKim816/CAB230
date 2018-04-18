@@ -27,6 +27,24 @@ body {
   background-color: #333;
 }
 
+#signin {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#signup {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 /* Style the topnav links */
 
 .topnav a {
@@ -76,14 +94,22 @@ body {
 
 .content_registration{
 
-  background: #6666ff;
+  background:url(/logo.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size 100%;
   padding: 10px;
-  height: 100px;
-  opacity: 0.6;
-  text-align: center;
+  height: 130px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 13px;
+
 
 } */
+
 
 .search{
   height: 110px;
@@ -216,6 +242,8 @@ button:hover {
 }
 .joinbtn{
   width: 30%;
+  font-size: 20px;
+
   background-color: 00cc00;
 }
 
