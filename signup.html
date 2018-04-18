@@ -3,6 +3,9 @@
 
 <head>
   <link rel="stylesheet" href="css/mystyle.css">
+  <script type="text/javascript" src="javascript/script.js"></script>
+
+  </script>
   <title>CAB230</title>
 </head>
 
@@ -25,7 +28,9 @@
   <div class="container">
     <form class = "signup_contatiner">
       <label><b>Firstname</b></label>
-      <input type="text" placeholder="Enter your Firstname" required>
+      <div>
+      <input name="question" type="text" style = "width:65%; margin-right: 10px;" placeholder="Enter your Firstname" required><span><button onclick="checkName()" type="button" class="checkName">Check Name</button></span>
+      </div>
       <label><b>Lastname</b></label>
       <input type="text" placeholder="Enter your Lastname" required>
       <label><b>Mobile</b></label>
@@ -36,7 +41,7 @@
       <input type="text" placeholder="Enter your Password" required>
 
       <div class="btns">
-        <button type="button" class="joinbtn">Join</button>
+        <button onclick="validate()" type="button" class="joinbtn">Join</button>
       </div>
     </form>
 </div>

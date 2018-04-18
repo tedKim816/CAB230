@@ -64,7 +64,7 @@ body {
 }
 
 /* Style the content */
-/* 
+
 .content_search {
 
   background:url(/image1.jpg) no-repeat center center;
@@ -108,7 +108,7 @@ body {
   font-size: 13px;
 
 
-} */
+}
 
 
 .search{
@@ -234,6 +234,18 @@ button:hover {
 .logbtn{
   width: 30%;
 }
+.checkName{
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  margin-top: 8px;
+  border: none;
+  cursor: pointer;
+
+  width: 20%;
+  font-size: 15px;
+}
 
 /* Extra style for the cancel button (red) */
 .cancelbtn {
@@ -340,4 +352,3 @@ span.psw {
 .float-right {
   float: right !important;
 }
-
