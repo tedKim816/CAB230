@@ -183,7 +183,14 @@ input[type=submit]:hover {
   width: 15%;
   margin-top: 6px;
 }
-
+.col-50{
+  width: 50%;
+  margin-top: 6px;
+}
+.col-40{
+  width: 40%;
+  margin-top: 6px;
+}
 .col-75 {
   float: left;
   width: 85%;
