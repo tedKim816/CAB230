@@ -11,45 +11,68 @@
 
 <body>
 
-  <div class="topnav">
-    <a href="/index.html" id="home">Home</a>
-    <a href="/search.html" id="search">Search</a>
-    <a href="/signup.html" id="signup">Sign up</a>
-    <a href="/login.html" id="signin">Sign in</a>
-  </div>
-
-  <div class="content_registration">
-    <h2>Welcome to Registration</h2>
-  </div>
-  <hr class="liner">
   <div class="container">
-    <form class="signup_container" name='form1' action="#" onsubmit="validate()">
-      <label><b>Username</b></label>
-      <br>
-      <input type="text" name='text1' style="width: 60%;" placeholder="Enter your Username"><span id= "surnameMissing" class= "error-message">"Username is a required field"</span>
-      <br>
-      <label><b>Mobile</b></label>
-      <br>
-      <input type="text" placeholder="Enter your Mobile Number" >
-      <label><b>Email</b></label>
-      <br>
-      <input type="text" placeholder="Enter your Email address" >
-      <label><b>Password</b></label>
-      <br>
-      <input name="password" id="password" type="password" placeholder="Enter your Password" >
-      <br>
-      <label><b>Confirm Password</b></label>
-      <br>
-      <input type="password" name="confirm_password" id="confirm_password" placeholder="Enter your Password" ><span id='message'></span>
-      <div class="btns">
-        <button onclick="validate();" type="button" class="joinbtn">Join</button>
-      </div>
-    </form>
+    <div class="topnav">
+      <a href="/index.html" id="home">Home</a>
+      <a href="/signup.html" id="signup">Sign up</a>
+      <a href="/login.html" id="signin">Sign in</a>
+    </div>
   </div>
 
-  <div class="footer">
-    <p>Copyright &copy;</p>
-  </div>
+  <div class="container">
+    <div class="content_registration">
+      <h2>Welcome to Registration</h2>
+    </div>
+
+    <hr class="liner">
+
+    <div class="container">
+      <form class="signup_container" name='form1' action="#" onsubmit="validate()">
+        <label><b>Username</b></label>
+        <br>
+        <input type="text" name='text1' style="width: 60%;" placeholder="Enter your Username"><span id="surnameMissing" class="error-message">"Username is a required field"</span>
+        <br>
+        <label><b>Mobile</b></label>
+        <br>
+        <input type="text" name="text2" placeholder="Enter your Mobile Number"><span id='messagephone'></span>
+        <br>
+        <label><b>Email</b></label>
+        <br>
+        <input type="text" placeholder="Enter your Email address">
+        <label><b>Password</b></label>
+        <br>
+        <input name="password" id="password" type="password" placeholder="Enter your Password">
+        <br>
+        <label><b>Confirm Password</b></label>
+        <br>
+        <input type="password" name="confirm_password" id="confirm_password" placeholder="Enter your Password"><span id='message'></span>
+        <div class="btns">
+          <input type="submit" value="Send Request">
+          <button onclick="validate();" type="button" class="joinbtn">Join</button>
+        </div>
+      </form>
+    </div>
+
+
+
+    <div class="container">
+      <div class="icon-bar">
+        <p>Follow us: </p>
+        <a href="#">
+        <img src="./img/instagram.png" alt="">
+      </a>
+        <a href="#">
+        <img src="/img/facebook.png" alt="">
+      </a>
+        <a href="#">
+        <img src="/img/twitter.png" alt="">
+      </a>
+      </div>
+      <div class="footer">
+        <p>Copyright &copy;</p>
+      </div>
+    </div>
+
 
 </body>
 

@@ -160,7 +160,10 @@ input[type=submit]:hover {
 
 .container {
   width: 75%;
-  margin: auto;
+  padding-right: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
 }
 .login_container{
   margin-left: auto;
@@ -176,6 +179,7 @@ input[type=submit]:hover {
 .error-message{
   color: red;
   visibility: hidden;
+  font-size: 10px;
 }
 
 
@@ -205,6 +209,8 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+/* Bordered form */
+
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
