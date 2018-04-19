@@ -64,51 +64,16 @@ body {
 }
 
 /* Style the content */
-/* 
-.content_search {
-
-  background:url(/image1.jpg) no-repeat center center;
+  .content_home {
+  background:url(../img/image2.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size 100%;
-  padding: 10px;
-  height: 200px;
-  opacity: 0.6;
-  text-align: center;
-
+  background-size: 100%;
+  height: 300px;
+  opacity: 0.8;
 }
 
-.content_home {
-  background:url(/image2.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size 100%;
-  padding: 10px;
-  height: 200px;
-  opacity: 0.6;
-  text-align: center;
-
-}
-
-.content_registration{
-
-  background:url(/logo.png) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size 100%;
-  padding: 10px;
-  height: 130px;
-  opacity: 0.9;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  font-size: 13px;
-
-
-} */
 
 
 .search{
@@ -162,7 +127,7 @@ input[type=submit]:hover {
   padding-right: 100px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 10px;
+
 }
 .login_container{
   margin-left: auto;
@@ -179,7 +144,10 @@ input[type=submit]:hover {
 }
 
 
-
+.col-100{
+  width: 100%;
+  margin-top: 6px;
+}
 .col-25 {
   float: left;
   width: 15%;
@@ -347,4 +315,6 @@ span.psw {
 .float-right {
   float: right !important;
 }
-
+.news{
+  width: 100%;
+}
