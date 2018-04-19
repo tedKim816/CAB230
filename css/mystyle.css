@@ -144,13 +144,14 @@ label {
 }
 
 input[type=submit] {
+  width: 100%;
   background-color: #4CAF50;
   color: white;
-  padding: 12px 20px;
+  padding: 10px;
   border: none;
   border-radius: 4px;
+  resize: vertical;
   cursor: pointer;
-  float: right;
 }
 
 input[type=submit]:hover {
@@ -159,24 +160,23 @@ input[type=submit]:hover {
 
 .container {
   width: 75%;
-  padding-right: 100px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
 }
 .login_container{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-.signup_contatiner{
+.signup_container{
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 50%;
 }
-
+.error-message{
+  color: red;
+  visibility: hidden;
+}
 
 
 .col-25 {
@@ -204,10 +204,6 @@ input[type=submit]:hover {
   content: "";
   display: table;
   clear: both;
-}
-/* Bordered form */
-form {
-    border: 3px solid #f1f1f1;
 }
 
 /* Full-width inputs */
@@ -242,7 +238,14 @@ button:hover {
 .logbtn{
   width: 30%;
 }
-.checkName{
+
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: 30%;
+    background-color: red;
+}
+.joinbtn{
   background-color: #4CAF50;
   color: white;
   padding: 8px 10px;
@@ -251,19 +254,8 @@ button:hover {
   border: none;
   cursor: pointer;
 
-  width: 20%;
-  font-size: 15px;
-}
-
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-    width: 30%;
-    background-color: red;
-}
-.joinbtn{
-  width: 30%;
+  width: 25%;
   font-size: 20px;
-
   background-color: 00cc00;
 }
 
