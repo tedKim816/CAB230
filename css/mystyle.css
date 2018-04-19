@@ -8,8 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.liner{
-
+.liner {
   border: 0;
   height: 2px;
   margin: 0;
@@ -24,30 +23,19 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
-}
-
-#signin {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-#signup {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  background-color: white;
 }
 
 /* Style the topnav links */
-
-.topnav a {
+#nav_btn{
+  float: right;
+  margin: 10px;
+  background-color: rgb(253, 179, 93);
+  color: white;
+  height: 50px;
+  width: 100px;
+}
+#home {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -56,6 +44,18 @@ body {
   text-decoration: none;
 }
 
+#search {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#logo{
+  float: left;
+  margin: 0;
+}
 /* Change color on hover */
 
 .topnav a:hover {
@@ -64,6 +64,7 @@ body {
 }
 
 /* Style the content */
+<<<<<<< HEAD
 
 .content_search {
 
@@ -78,20 +79,20 @@ body {
   text-align: center;
 
 }
+=======
+>>>>>>> 3e3bfaa57d91b83c0ce7c7936123a702a33b16e0
 
 .content_home {
-  background:url(/image2.jpg) no-repeat center center;
+  background: url(../img/image2.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size 100%;
-  padding: 10px;
-  height: 200px;
-  opacity: 0.6;
-  text-align: center;
-
+  background-size: 100%;
+  height: 300px;
+  opacity: 0.8;
 }
 
+<<<<<<< HEAD
 .content_registration{
 
   background:url(/logo.png) no-repeat center center;
@@ -112,12 +113,13 @@ body {
 
 
 .search{
+=======
+.search {
+>>>>>>> 3e3bfaa57d91b83c0ce7c7936123a702a33b16e0
   height: 110px;
   padding: 10px;
   text-align: center;
 }
-
-
 
 /* Style the footer */
 
@@ -130,7 +132,9 @@ body {
   box-sizing: border-box;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -163,13 +167,14 @@ input[type=submit]:hover {
   padding-right: 100px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 10px;
 }
-.login_container{
+
+.login_container {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+<<<<<<< HEAD
 .signup_container{
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -182,20 +187,38 @@ input[type=submit]:hover {
   font-size: 10px;
 }
 
+=======
+
+.signup_contatiner {
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.col-100 {
+  width: 100%;
+  margin-top: 6px;
+}
+>>>>>>> 3e3bfaa57d91b83c0ce7c7936123a702a33b16e0
 
 .col-25 {
   float: left;
   width: 15%;
   margin-top: 6px;
 }
-.col-50{
+
+.col-50 {
   width: 50%;
   margin-top: 6px;
 }
-.col-40{
+
+.col-40 {
   width: 40%;
   margin-top: 6px;
 }
+
 .col-75 {
   float: left;
   width: 85%;
@@ -209,48 +232,56 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+
 /* Bordered form */
 
-
 /* Full-width inputs */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 /* Set a style for all buttons */
+
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    margin-top: 8px;
-    border: none;
-    cursor: pointer;
+  background-color: rgb(253, 179, 93);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-top: 8px;
+  border: none;
+  cursor: pointer;
 }
 
 /* Add a hover effect for buttons */
+
 button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
-.btns{
+
+.btns {
   margin-top: 20px;
-    text-align: center;
+  text-align: center;
 }
-.logbtn{
+
+.logbtn {
   width: 30%;
 }
 
 
 /* Extra style for the cancel button (red) */
+
 .cancelbtn {
-    width: 30%;
-    background-color: red;
+  width: 30%;
+  background-color: red;
 }
+<<<<<<< HEAD
 .joinbtn{
   background-color: #4CAF50;
   color: white;
@@ -261,31 +292,40 @@ button:hover {
   cursor: pointer;
 
   width: 25%;
+=======
+
+.joinbtn {
+  width: 30%;
+>>>>>>> 3e3bfaa57d91b83c0ce7c7936123a702a33b16e0
   font-size: 20px;
   background-color: 00cc00;
 }
 
 /* The "Forgot password" text */
+
 span.psw {
-    float: right;
-    padding-top: 16px;
+  float: right;
+  padding-top: 16px;
 }
 
 /* Change styles for span and cancel button on extra small screens */
+
 @media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-    }
-    .cancelbtn {
-        width: 100%;
-    }
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-25,
+  .col-75,
+  input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
@@ -306,6 +346,7 @@ span.psw {
   color: white;
   font-size: 36px;
 }
+
 .icon-bar p {
   float: left;
   width: 10%;
@@ -315,13 +356,15 @@ span.psw {
   color: white;
   font-size: 20px;
 }
-.icon-bar img{
+
+.icon-bar img {
   height: 50px;
 }
 
 .icon-bar a:hover {
   background-color: #000;
 }
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -331,6 +374,7 @@ span.psw {
   margin-right: -15px;
   margin-left: -15px;
 }
+
 .list-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -342,6 +386,7 @@ span.psw {
   padding-left: 0;
   margin-bottom: 0;
 }
+
 .list-group-item {
   position: relative;
   display: block;
@@ -349,8 +394,8 @@ span.psw {
   margin-bottom: -1px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
-
 }
+
 .float-left {
   float: left !important;
 }
@@ -358,3 +403,10 @@ span.psw {
 .float-right {
   float: right !important;
 }
+<<<<<<< HEAD
+=======
+
+.news {
+  width: 100%;
+}
+>>>>>>> 3e3bfaa57d91b83c0ce7c7936123a702a33b16e0
