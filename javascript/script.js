@@ -1,7 +1,7 @@
     function validate() {
       checkName();
       password();
-      phonenumber(inputtxt);
+    
     }
 
     function checkName() {
@@ -26,7 +26,7 @@
         document.getElementById('message').innerHTML = 'not matching';
       }
     }
-
+/*
     function phonenumber(inputtxt) {
 
       var type = document.form1.text2.value;
