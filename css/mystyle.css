@@ -64,23 +64,6 @@ body {
 }
 
 /* Style the content */
-<<<<<<< HEAD
-
-.content_search {
-
-  background:url(/image1.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size 100%;
-  padding: 10px;
-  height: 200px;
-  opacity: 0.6;
-  text-align: center;
-
-}
-=======
->>>>>>> 3e3bfaa57d91b83c0ce7c7936123a702a33b16e0
 
 .content_home {
   background: url(../img/image2.jpg) no-repeat center center;
@@ -92,30 +75,7 @@ body {
   opacity: 0.8;
 }
 
-<<<<<<< HEAD
-.content_registration{
-
-  background:url(/logo.png) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size 100%;
-  padding: 10px;
-  height: 130px;
-  opacity: 0.9;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  font-size: 13px;
-
-
-}
-
-
-.search{
-=======
 .search {
->>>>>>> 3e3bfaa57d91b83c0ce7c7936123a702a33b16e0
   height: 110px;
   padding: 10px;
   text-align: center;
@@ -148,14 +108,13 @@ label {
 }
 
 input[type=submit] {
-  width: 100%;
   background-color: #4CAF50;
   color: white;
-  padding: 10px;
+  padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  resize: vertical;
   cursor: pointer;
+  float: right;
 }
 
 input[type=submit]:hover {
@@ -174,22 +133,8 @@ input[type=submit]:hover {
   margin-right: auto;
   width: 50%;
 }
-<<<<<<< HEAD
-.signup_container{
-  color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: auto;
-  width: 50%;
-}
-.error-message{
-  color: red;
-  visibility: hidden;
-  font-size: 10px;
-}
 
-=======
-
-.signup_contatiner {
+.signup_container {
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-left: auto;
@@ -197,11 +142,16 @@ input[type=submit]:hover {
   width: 50%;
 }
 
+.error-message{
+  color: red;
+  font-size: 12px;
+  display: none;
+}
+
 .col-100 {
   width: 100%;
   margin-top: 6px;
 }
->>>>>>> 3e3bfaa57d91b83c0ce7c7936123a702a33b16e0
 
 .col-25 {
   float: left;
@@ -274,29 +224,15 @@ button:hover {
   width: 30%;
 }
 
-
 /* Extra style for the cancel button (red) */
 
 .cancelbtn {
   width: 30%;
   background-color: red;
 }
-<<<<<<< HEAD
-.joinbtn{
-  background-color: #4CAF50;
-  color: white;
-  padding: 8px 10px;
-  margin: 8px 0;
-  margin-top: 8px;
-  border: none;
-  cursor: pointer;
-
-  width: 25%;
-=======
 
 .joinbtn {
   width: 30%;
->>>>>>> 3e3bfaa57d91b83c0ce7c7936123a702a33b16e0
   font-size: 20px;
   background-color: 00cc00;
 }
@@ -403,10 +339,7 @@ span.psw {
 .float-right {
   float: right !important;
 }
-<<<<<<< HEAD
-=======
 
 .news {
   width: 100%;
 }
->>>>>>> 3e3bfaa57d91b83c0ce7c7936123a702a33b16e0
