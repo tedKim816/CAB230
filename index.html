@@ -8,13 +8,15 @@
 
 
 <body>
+  <div></div>
 
   <div class="container">
     <div class="topnav">
-      <a href="/index.html" id="home">Home</a>
-      <a href="/search.html" id="search">Search</a>
-      <a href="/signup.html" id="signup">Sign up</a>
-      <a href="/login.html" id="signin">Sign in</a>
+      <a href="../index.html" id="logo">
+        <img src="../img/logo.png" alt="" height="75px" style="margin: 0%">
+      </a>
+      <button id="nav_btn" class="btns" onclick="location.href='../signup.html'" >Sign up</button>
+      <button id="nav_btn" class="btns" onclick="location.href='../login.html'" >Sign in</button>
     </div>
   </div>
 
@@ -22,14 +24,14 @@
     <div class="content_home">
       <br>
       <div class="col-75" style="padding-left: 10%; padding-right: 20%;">
-        <form action="">
+        <form style="display: inline" action="../search_result.html" method="get">
           <h2>Serch</h2>
           <input style="width: 80%" type="text" placeholder="Restaurant Name">
           <button class="btns">Search</button>
         </form>
       </div>
     </div>
-    <div>
+    <div style="margin-top: 10px;">
       <div style="margin: auto;">
         <div class="news list-group">
           <div class="list-group-item">
@@ -67,7 +69,8 @@
             <div class="float-right" style="width: 75%;">
               <h2>Jamie Oliver's Canberra restaurant has closed</h2>
               <p> Brisbane-based Hallmark Group will take over operating the Australian franchises of the celebrity chef's restaurant
-                chain.</p>
+                chain.
+              </p>
             </div>
           </div>
 
