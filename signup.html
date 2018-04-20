@@ -2,75 +2,82 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="css/mystyle.css">
+  <meta charset="utf-8">
   <title>CAB230</title>
+  <link rel="stylesheet" href="css/mystyle.css">
+  <script type="text/javascript" src="javascript/script.js"></script>
 </head>
 
 
 <body>
 
   <div class="container">
-    <div class="topnav">
-      <a href="../index.html" id="logo">
-        <img src="../img/logo.png" alt="" height="75px" style="margin: 0%">
-      </a>
-      <button id="nav_btn" class="btns" onclick="location.href='../signup.html'">Sign up</button>
-      <button id="nav_btn" class="btns" onclick="location.href='../login.html'">Sign in</button>
+      <div class="topnav">
+        <a href="../index.html" id="logo">
+          <img src="../img/logo.png" alt="" height="75px" style="margin: 0%">
+        </a>
+        <button id="nav_btn" class="btns" onclick="location.href='../signup.html'" >Sign up</button>
+        <button id="nav_btn" class="btns" onclick="location.href='../login.html'" >Sign in</button>
+      </div>
     </div>
-  </div>
+
   <div class="container">
     <div class="content_registration">
-
       <h2>Welcome to Registration</h2>
     </div>
 
     <hr class="liner">
 
-    <form class="signup_contatiner">
-      <label>
-        <b>Firstname</b>
-      </label>
-      <input type="text" placeholder="Enter your Firstname" required>
-      <label>
-        <b>Lastname</b>
-      </label>
-      <input type="text" placeholder="Enter your Lastname" required>
-      <label>
-        <b>Mobile</b>
-      </label>
-      <input type="text" placeholder="Enter your Mobile Number" required>
-      <label>
-        <b>Email</b>
-      </label>
-      <input type="text" placeholder="Enter your Email address" required>
-      <label>
-        <b>Password</b>
-      </label>
-      <input type="text" placeholder="Enter your Password" required>
+    <div class="container">
+      <form id="sign_up_form" class="signup_container" name='form1'>
+        <label><b>Username</b></label>
+        <br>
+        <input type="text" name="text1" placeholder="Enter your Username">
+        <span id="surnameMissing" class="error-message">Username is a required field</span>
+        <br>
+        <label><b>Mobile</b></label>
+        <br>
+        <input type="text" id="phone_num" name="text2" placeholder="Enter your Mobile Number">
+        <span id='messagephone' class="error-message"></span>
+        <br>
+        <label><b>Email</b></label>
+        <br>
+        <input type="text" placeholder="Enter your Email address">
+        <label><b>Password</b></label>
+        <br>
+        <input name="password" id="password" type="password" placeholder="Enter your Password">
+        <br>
+        <label><b>Confirm Password</b></label>
+        <br>
+        <input type="password" name="confirm_password" id="confirm_password" placeholder="Enter your Password">
+        <span id='message' class="error-message"></span>
+        <div class="btns">
+          <button  type="button" class="joinbtn" onclick="validate()">Join</button>
+        </div>
+      </form>
+    </div>
+  </div>
 
-      <div class="btns">
-        <button type="button" class="joinbtn">Join</button>
+
+
+      <div class="container">
+        <div class="icon-bar">
+          <p>Follow us: </p>
+          <a href="#">
+            <img src="./img/instagram.png" alt="">
+          </a>
+          <a href="#">
+            <img src="/img/facebook.png" alt="">
+          </a>
+          <a href="#">
+            <img src="/img/twitter.png" alt="">
+          </a>
+        </div>
+        <div class="footer">
+          <p>Copyright &copy;</p>
+        </div>
       </div>
-    </form>
-  </div>
 
-  <div class="container">
-    <div class="icon-bar">
-      <p>Follow us: </p>
-      <a href="#">
-        <img src="./img/instagram.png" alt="">
-      </a>
-      <a href="#">
-        <img src="/img/facebook.png" alt="">
-      </a>
-      <a href="#">
-        <img src="/img/twitter.png" alt="">
-      </a>
-    </div>
-    <div class="footer">
-      <p>Copyright &copy;</p>
-    </div>
-  </div>
 
 
 </body>

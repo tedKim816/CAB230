@@ -134,12 +134,18 @@ input[type=submit]:hover {
   width: 50%;
 }
 
-.signup_contatiner {
+.signup_container {
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.error-message{
+  color: red;
+  font-size: 12px;
+  display: none;
 }
 
 .col-100 {
