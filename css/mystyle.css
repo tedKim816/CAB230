@@ -72,13 +72,13 @@ color: orange;
 /* Style the content */
 
 .content_home {
-  background: url(../img/image2.jpg) no-repeat center center;
+  background: url(../img/map.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100%;
   height: 300px;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .search {
@@ -136,6 +136,8 @@ input[type=submit]:hover {
 }
 
 .login_container {
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
