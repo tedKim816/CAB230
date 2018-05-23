@@ -10,11 +10,11 @@
 <body>
     <div class="container">
         <div class="topnav">
-            <a href="../index.html" id="logo">
+            <a href="../index.php" id="logo">
                 <img src="../img/logogo.png" alt="" height="75px" style="margin: 0%">
             </a>
-            <button id="nav_btn" class="btns" onclick="location.href='/signup.html'">Sign up</button>
-            <button id="nav_btn" class="btns" onclick="location.href='/login.html'">Sign in</button>
+            <button id="nav_btn" class="btns" onclick="location.href='/signup.php'">Sign up</button>
+            <button id="nav_btn" class="btns" onclick="location.href='/login.php'">Sign in</button>
         </div>
     </div>
     <div class="container">
